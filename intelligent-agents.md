@@ -22,3 +22,8 @@
 ### Specifying the task environment
 - **Fully Observable vs Partially Observable**:
 	- If an gent's sensors give it access to the complete state of the environment at each point in time, then we say that the task environment is fully observable. A task environment is effectively fully observable if the sensors detect al aspects that are *relevant* to the choice of action; relevance, in turn, depends on the performance measure.
+- **Single-agent vs Multiagent**
+- **Deterministic vs nondeterministic**: If the next state of the environment is completely determined by the current state and the action executed by the agent, then we say the environment is deterministic; otherwise, it is nondeterministic environment.
+- **Episodic vs Sequential**: In an episodic task environment, the agent's experience is divided into atomic episodes.In each episode the agent receives a percept and then performs a single action.
+- **Static vs Dynamic**: If the environment can change while an agent is deliberating, then we say the environment is dynamic for that agent
+- **Discrete vs Continuous**: The discrete/cntinuous distinction applies to the state of the environment, to the way time is handled, and to the percepts and actions of the agent.
