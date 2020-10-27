@@ -27,3 +27,9 @@
 - **Episodic vs Sequential**: In an episodic task environment, the agent's experience is divided into atomic episodes.In each episode the agent receives a percept and then performs a single action.
 - **Static vs Dynamic**: If the environment can change while an agent is deliberating, then we say the environment is dynamic for that agent
 - **Discrete vs Continuous**: The discrete/cntinuous distinction applies to the state of the environment, to the way time is handled, and to the percepts and actions of the agent.
+## The Structure of Agents
+- The job of AI is to design an **agent program** that implements the agent function-the mapping from percepts to actions.
+- We assume this program will run on some sort computing device with physical sensors and actuators-wecall this the **agent architecture**
+- `agent = architecture + program`
+### Agent programs
+- Take the current percept as input from the sensors and return an action to the actuators
